@@ -17,4 +17,27 @@ namespace _2013221749
 
         public Carro Carro { get { return _carro; } }
     }
+
+        public void Agregar(Carro carro){
+            if(_carro.Count <= 3){
+                _carro++;            
+            }
+        }
+
+        public void Eliminar(Carro carro){
+            
+        }
+
+        public boolean IniciarPersonalizacion(){
+        
+
+        }
+
+        public boolean finalizarPersonalizacion(){
+        
+        }
+
+        public Carro EnsamblarCarro(TipoCarro tipocarro, TipoAuto tipoauto,TipoBus tipobus){
+
+        }
 }
