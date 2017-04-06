@@ -8,5 +8,6 @@ namespace _2013221749
 {
     class TipoBus
     {
+        enum TipoBuses { Publico, Privado, NoDefinido };
     }
 }
